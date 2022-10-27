@@ -1,0 +1,81 @@
+@media (min-width: 768px) {
+	//COMPONENTS
+	.hero-img {
+		&__heading {
+			font-size: 4rem;
+		}
+		&__text {
+			font-size: 1.2rem;
+		}
+	}
+
+	.section-title {
+		font-size: 2.7rem;
+	}
+	.section-header {
+		font-size: 3.7rem;
+	}
+
+	.nav {
+		&__box-logo {
+			width: 3em;
+		}
+		&__box-header {
+			margin-left: 0.3em;
+			font-size: 4rem;
+		}
+		&__links-li {
+			font-size: 2rem;
+		}
+	}
+
+	.about {
+		&__text {
+			font-size: 1.4rem;
+		}
+	}
+
+	.menu {
+		&__card {
+			margin: 2em 6em;
+		}
+		&__card-button {
+			padding: 1em 2em;
+			font-size: 1.2rem;
+		}
+	}
+	.reviews {
+		&__box {
+			margin: 1em;
+			margin-bottom: 2em;
+			padding: 2em 4em;
+            width: 50%;
+		}
+		}
+
+        .contact {
+            &__form {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+            &__input {
+                width: 45%;
+                margin: 1em;
+                padding: 1em 2em;
+            }
+            &__text-area {
+                min-width: 100%;
+                max-width: 300px;
+                width: 100%;
+                min-height: 200px;
+                max-height: 200px;
+            }
+            &__button{
+                padding: 1.5em 3em;
+                margin-top: 1em;
+                font-size: 1rem;
+            }
+        }
+	}
+

@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aloha Kitchen</title>
+    <link rel="stylesheet" href="./css/hamburger.css">
+    <link rel="stylesheet" href="./css/main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chango&family=Montserrat:wght@200;400;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+</head>
+
+<body>
+    <!-- NAVIGATION -->
+    <nav class="nav">
+        <div class=" nav__container wrapper">
+            <div class="nav__box">
+                <a href="#">
+                    <img src="./img/logo.png" alt="logo restauracji" class="nav__box-logo"></a>
+                <h3 class="nav__box-header">Aloha</h3>
+            </div>
+            <div class="nav__links">
+                <ul class="nav__links-ul">
+                    <li class="nav__links-li"><a href="#about" class="nav__links-a aboutNavItem">O nas</a></li>
+                    <li class="nav__links-li"><a href="#menu" class="nav__links-a menuNavItem">Menu</a></li>
+                    <li class="nav__links-li galleryNavItem"><a href="#gallery" class="nav__links-a">Galeria</a></li>
+                    <li class="nav__links-li contactNavItem"><a href="#contact" class="nav__links-a">Kontakt</a></li>
+                </ul>
+            </div>
+            <button class="hamburger hamburger--spin " type="button">
+                <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                </span>
+            </button>
+        </div>
+    </nav>
+    <!-- HEADER -->
+    <header class="header hero-img">
+        <div class="hero-img__shadow"></div>
+        <div class="wrapper">
+            <h2 class="hero-img__heading">Aloha Kitchen</h2>
+            <p class="hero-img__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore ipsum rerum
+                iste
+                vero, consectetur veniam!</p>
+        </div>
+    </header>
+    <!-- MAIN -->
+    <main class="main">
+        <!-- ABOUT US -->
+        <section class="about" id="about">
+            <div class="wrapper">
+                <h2 class="section-header section-title">Filozofia</h2>
+                <div class="about__box">
+                    <div class="about__box-img">
+                        <img src="./img/about1.jpg" alt="nachosy oraz sosy">
+                    </div>
+                    <div class="about__box-text">
+                        <h3 class="about__title section-title">Kuchnia wiecznego lata</h3>
+                        <p class="about__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, qui
+                            nemo labore consequuntur iste beatae facere perspiciatis et eos deserunt?Lorem ipsum dolor
+                            sit amet consectetur adipisicing elit. Fuga, ducimus. Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Cupiditate, libero.</p>
+                    </div>
+                </div>
+                <div class="about__box">
+                    <div class="about__box-img about__box-img--right">
+                        <img src="./img/about2.jpg" alt="tortilla oraz sosy">
+                    </div>
+                    <div class="about__box-text about__box-text--right">
+                        <h3 class="about__title section-title">Poszukiwania smaku</h3>
+                        <p class="about__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, qui
+                            nemo labore consequuntur iste beatae facere perspiciatis et eos deserunt? Lorem, ipsum dolor
+                            sit amet consectetur adipisicing elit. Amet, iste deserunt praesentium distinctio expedita
+                            nostrum nihil explicabo cum ullam esse.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- HEADER-SECOND -->
+        <section class="header-second hero-img">
+            <div class="hero-img__shadow"></div>
+            <div class="wrapper">
+                <h2 class="hero-img__heading">La Cucina Mexicano</h2>
+                <p class="hero-img__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, ipsam.</p>
+            </div>
+        </section>
+
+        <!-- MENU -->
+        <section class="menu" id="menu">
+            <div class="wrapper">
+                <h2 class="section-header section-title">Menu</h2>
+                <div class="menu__cards">
+                    <div class="menu__card">
+                        <h2 class="section-title menu__card-section-title">Śniadania</h2>
+                        <img src="./img/sun.png" alt="" class="menu__card-img">
+                        <h4 class="menu__card-title">09:00 - 12.30</h4>
+                        <p class="menu__card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum illo
+                            laudantium atque? Maxime, esse nemo.</p>
+                        <button class="button menu__card-button">menu śniadaniowe</button>
+                    </div>
+                    <div class="menu__card">
+                        <h2 class="section-title menu__card-section-title">Tacosy</h2>
+                        <img src="./img/taco.png" alt="" class="menu__card-img">
+                        <h4 class="menu__card-title">Przepyszne taco</h4>
+                        <p class="menu__card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum illo
+                            laudantium atque? Maxime, esse nemo.</p>
+                        <button class="button menu__card-button">menu tapas</button>
+                    </div>
+                    <div class="menu__card">
+                        <h2 class="section-title menu__card-section-title">Alkohole</h2>
+                        <img src="./img/wine-glasses.png" alt="" class="menu__card-img">
+                        <h4 class="menu__card-title">Bogaty wybór</h4>
+                        <p class="menu__card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum illo
+                            laudantium atque? Maxime, esse nemo.</p>
+                        <button class="button menu__card-button">karta alkoholi</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- REVIEWS -->
+        <section class="reviews">
+            <div class="wrapper">
+                <h2 class="section-header section-title">Opinie naszych gości</h2>
+                <div class="reviews__boxes">
+                    <div class="reviews__box">
+                        <p class="reviews__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, id
+                            assumenda minima modi, optio repellat molestiae delectus numquam, tempora explicabo atque
+                            voluptatum impedit sapiente voluptas.</p>
+                        <p class="reviews__text reviews__text--strong">Adam Małysz</p>
+                        <p class=" reviews__text reviews__text--mini">google</p>
+                    </div>
+                    <div class="reviews__box">
+                        <p class="reviews__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, id
+                            assumenda minima modi, optio repellat molestiae delectus numquam, tempora explicabo atque
+                            voluptatum impedit sapiente voluptas.</p>
+                        <p class="reviews__text reviews__text--strong">Jane Ahonen</p>
+                        <p class=" reviews__text reviews__text--mini">google</p>
+                    </div>
+                    <div class="reviews__box">
+                        <p class="reviews__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, id
+                            assumenda minima modi, optio repellat molestiae delectus numquam, tempora explicabo atque
+                            voluptatum impedit sapiente voluptas.</p>
+                        <p class="reviews__text reviews__text--strong">Noriaki Kasai</p>
+                        <p class=" reviews__text reviews__text--mini">tripadvisor</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- HEADER-THIRD -->
+        <section class=" header-third hero-img">
+            <div class="hero-img__shadow"></div>
+            <div class="wrapper">
+                <h2 class="hero-img__heading">Solo productos frescos</h2>
+                <p class="hero-img__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, ipsam.</p>
+            </div>
+        </section>
+        <!-- GALLERY -->
+        <section class="gallery" id="gallery">
+            <h2 class="section-header section-title">Galeria</h2>
+            <div class="gallery__box">
+                <img class="gallery__img" src="./img/gallery1.jpg" alt="">
+                <img class="gallery__img" src="./img/gallery2.jpg" alt="">
+                <img class="gallery__img" src="./img/gallery3.jpg" alt="">
+                <img class="gallery__img" src="./img/gallery4.jpg" alt="">
+                <img class="gallery__img" src="./img/gallery5.jpg" alt="">
+                <img class="gallery__img" src="./img/gallery6.jpg" alt="">
+            </div>
+        </section>
+        <!-- CONTACT -->
+        <section class="contact" id="contact">
+            <h2 class="contact__header section-header section-title">Skontaktuj się z nami</h2>
+            <div class="wrapper">
+                <div class="contact__box">
+                    <div class="contact__form">
+                        <label for="name"></label>
+                        <input type="text" placeholder="Imię i nazwisko" id="name" class="contact__input">
+                        <label for="email"></label>
+                        <input type="email" placeholder="E-mail" id="email" class="contact__input">
+                        <label for="phone"></label>
+                        <input type="number" placeholder="Telefon kontaktowy" id="phone" class="contact__input">
+                        <label for="date"></label>
+                        <input type="number" placeholder="Data rezerwacji" id="date" class="contact__input">
+                        <label for="hour"></label>
+                        <input type="number" placeholder="Godzina rezerwaacji" id="hour" class="contact__input">
+                        <label for="person"></label>
+                        <input type="number" placeholder="Ilość osób" id="person" class="contact__input">
+                        <label for="msg"></label>
+                        <textarea id="msg" placeholder="Wiadomość" class="contact__input contact__text-area"></textarea>
+                        <button class="button contact__button">Wyślij</button>
+                    </div>
+                    <div class="contact__text">
+                        <h3 class="contact__text-header">Godziny otwarcia</h3>
+                        <p class="contact__text-p">09:00 - 23:00</p>
+                        <h3 class="contact__text-header">Rezerwacje</h3>
+                        <p class="contact__text-p">rezerwacje@aloha.pl</p>
+                        <p class="contact__text-p">+48 777 888 999</p>
+                        <h3 class="contact__text-header">Manager</h3>
+                        <p class="contact__text-p">Pimpek Pipkowski</p>
+                        <p class="contact__text-p">pimpek@pimpkowski.it</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="footer__boxes">
+                <div class="footer__box">
+                    <img src="./img/logo.png" alt="" class="footer__logo">
+                    <h3 class="footer__header">Aloha Restaurant</h3>
+                    <p class="footer__text">Pimpkowa 33, Kraków</p>
+                    <p class="footer__text">+48 777 888 999</p>
+                    <p class="footer__text">aloha@kitchen.pl</p>
+                </div>
+                <div class="footer__social">
+                    <a href="#" class="footer__social"><img src="./img/facebook.png" alt=""
+                            class="footer__social-img"></a>
+                    <a href="#" class="footer__social"><img src="./img/instagram.png" alt=""
+                            class="footer__social-img"></a>
+                    <a href="#" class="footer__social"><img src="./img/tripadvisor.png" alt=""
+                            class="footer__social-img"></a>
+                </div>
+            </div>
+            <hr>
+            <p class="footer__bottom-text">&copy; <span class="footer__year"></span> Aloha Restaurant</p>
+            <div class="footer__author">
+                <p class="footer__author-text">design by <a href="https://github.com/gacmen45"> <img
+                            src="./img/gacmen.png" alt="">gacmen45</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/slick.js"></script>
+</body>
+
+</html>

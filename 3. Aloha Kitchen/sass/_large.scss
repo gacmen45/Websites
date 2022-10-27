@@ -1,0 +1,227 @@
+@media (min-width: 992px) {
+	.hamburger {
+		display: none;
+	}
+	//COMPONENTS
+	.hero-img {
+		&__heading {
+			font-size: 5rem;
+			letter-spacing: 15px;
+		}
+		&__text {
+			font-size: 1.3rem;
+		}
+	}
+	.section-title {
+		font-size: 2.5rem;
+	}
+	.section-header {
+		font-size: 4.5rem;
+	}
+
+	.nav {
+		
+		&__container {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			align-items: center;
+		}
+
+		&__links {
+			display: flex;
+		}
+
+		&__links-ul {
+			flex-direction: row;
+			justify-content: flex-end;
+		}
+		&__links-li {
+			font-size: 2.3rem;
+		}
+		&__links-a{
+			font-size: 2rem;
+		}
+	}
+
+	.header {
+		background-image: url(../img/header-big.jpg);
+	}
+
+	.about {
+		&__box {
+			flex-direction: row;
+			justify-content: space-between;
+		}
+
+		&__text{
+			font-size: 1.2rem;
+		}
+		&__box-img {
+			&--right {
+				order: 1;
+			}
+		}
+		&__box-text {
+			width: 70%;
+			&--right {
+				text-align: right;
+			}
+		}
+	}
+
+	.header-second {
+		height: 80vh;
+		background-image: url(../img/hero-img-big.jpg);
+	}
+
+	.menu {
+		&__cards {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+		}
+		&__card {
+			margin: 1em;
+			padding: 3em 1em;
+		}
+		&__card-img {
+			width: 25%;
+			margin-bottom: 1.5em;
+		}
+		&__card-section-title{
+			font-size: 2rem;
+		}
+		&__card-title {
+			font-size: 1rem;
+		}
+		&__card-text {
+			font-size: 1rem;
+		}
+		&__card-button {
+			padding: 1em 2em;
+			font-size: .8rem;
+		}
+	}
+
+	.reviews {
+		&__box {
+			margin: 2em;
+			padding: 3em 2em;
+		}
+		&__text {
+			font-size: 1.5rem;
+			&--strong {
+				font-size: 2rem;
+			}
+			&--mini {
+				font-size: 1rem;
+			}
+		}
+	}
+	.header-third {
+		background-image: url(../img/hero-img2-big.jpg);
+	}
+
+	.gallery {
+		&__img {
+			margin: 0.5em;
+		}
+	}
+
+	.contact {
+		&__box {
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			align-items: center;
+			margin-bottom: 3em;
+		}
+		&__form {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+		}
+		&__input {
+			width: 40%;
+			margin: 2em;
+			padding: 1em;
+		}
+
+		&__text {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			height: 100%;
+		}
+		&__text-header {
+			margin-top: 1em;
+		}
+
+		&__text-header:first-child {
+			margin-top: 0;
+		}
+		&__button{
+			margin-top: 0.5em;
+		}
+	}
+
+	.footer {
+		&__boxes {
+			flex-direction: row;
+		}
+	}
+}
+
+@media (min-width: 1400px) {
+	.hero-img {
+		&__heading {
+			font-size: 6rem;
+		}
+	}
+	.nav {
+		&__box-logo {
+			width: 3.5em;
+		}
+		&__box-header {
+			margin-left: 0.3em;
+			font-size: 4.5rem;
+		}
+		&__links-a {
+			font-size: 2rem;
+		}
+	}
+	.menu {
+		&__card {
+			margin: 1em;
+			padding: 4em 2em;
+		}
+		&__card-img {
+			width: 35%;
+			margin-bottom: 1.5em;
+		}
+		&__card-title {
+			font-size: 1.4rem;
+		}
+		&__card-text {
+			font-size: 1rem;
+		}
+		&__card-button {
+			padding: 1em 2em;
+			font-size: 1rem;
+		}
+	}
+
+	.reviews {
+		&__box {
+			margin: 2em;
+			padding: 3em 4em;
+		}
+	}
+	.gallery {
+		&__img {
+			margin: 3em;
+		}
+	}
+}

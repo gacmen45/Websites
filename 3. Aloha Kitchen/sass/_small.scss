@@ -1,0 +1,107 @@
+@media (min-width: 375px) {
+	//COMPONENTS
+	.hero-img {
+		&__heading {
+			font-size: 2.5rem;
+		}
+	}
+	.section-header {
+		font-size: 2.7rem;
+	}
+	.nav {
+		&__box-logo {
+			margin-left: 1em;
+		}
+		&__box-header {
+			font-size: 3.5rem;
+		}
+	}
+	.menu {
+		&__card-img {
+			width: 5rem;
+		}
+		&__card-title {
+			font-size: 1.2rem;
+		}
+	}
+	.reviews {
+		&__box {
+			margin: 1.5em;
+		}
+	}
+    .contact {
+        &__header {
+            font-size: 2.3rem;
+        }
+        &__form {
+            padding: 1em;
+        }
+}}
+
+@media (min-width: 576px) {
+	//COMPONENTS
+	.hero-img {
+		&__heading {
+			font-size: 4rem;
+		}
+	}
+	.section-title {
+		font-size: 2.5rem;
+	}
+	.section-header {
+		font-size: 3.0rem;
+	}
+	.nav {
+		&__box-logo {
+			margin-left: 1.3em;
+		}
+		&__box-header {
+			font-size: 3.5rem;
+		}
+	}
+	.about {
+		&__text {
+			font-size: 1.1rem;
+		}
+	}
+	.menu {
+		&__card {
+			margin: 1em 3em;
+		}
+		&__card-img {
+			width: 6rem;
+			margin-bottom: 1.5em;
+		}
+		&__card-title {
+			font-size: 1.4rem;
+		}
+		&__card-text {
+			font-size: 1rem;
+		}
+		&__card-button {
+			padding: 1.5em 3em;
+		}
+	}
+
+	.reviews {
+		&__box {
+			margin: 1em 3em;
+			margin-bottom: 2em;
+			padding: 2em 1em;
+		}
+		&__text {
+			font-size: 1rem;
+			&--strong {
+				font-size: 1.5rem;
+			}
+			&--mini {
+				font-size: 0.8rem;
+			}
+		}
+	}
+    .gallery{
+        &__box{
+        margin: 1em;
+        padding: .5em;}
+    }
+}
