@@ -4,7 +4,7 @@
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Sources](#sources)
-* [Link to separate repo] (#separate-repo)
+* [Separate Repo](#separate-repo)
 * [Live](#live)
 
 ## General Info
@@ -22,7 +22,7 @@ In this project I used:
 * hamburger Icon (https://github.com/jonsuh/hamburgers)
 
 ## Separate Repo
-(https://github.com/gacmen45/Portfolio)
+https://github.com/gacmen45/Portfolio
 
 ## Live
 https://gacmen45.github.io/Portfolio/
