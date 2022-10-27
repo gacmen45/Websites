@@ -12,6 +12,7 @@
 # Portfolio
 
 <div align="left">
+  
 ## Table of Contents
 * [General info](#general-info)
 * [Technologies](#technologies)
